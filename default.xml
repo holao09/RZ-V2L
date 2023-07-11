@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-  <manifest>
+ <manifest>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/renesas-rz" name="meta-renesas"/>
+  <remote fetch="https://github.com/holao09" name="meta-rz-features"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
+  
   
   <project name="poky" path="sources/poky" remote="yocto" revision="531b27b683677301c13af9c26933e6a49deee898"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="7952135f650b4a754e2255f5aa03973a32344123"/>
@@ -11,4 +13,5 @@
   <project name="meta-renesas" path="sources/meta-renesas" remote="meta-renesas" revision="e5f7055d78ff0219932557f25645024f35ac5d9a"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="meta-qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="a63a54df3170fed387f810f23cdc2f483ad587df"/>
-  </manifest>
+  <project name="meta-rz-features" path="sources/meta-rz-features" remote="meta-rz-features" revision="72983845c8883ca070ff1296db36672c51f5175e"/>
+</manifest>
