@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<manifest>
+  <manifest>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://git.openembedded.org" name="oe"/>
-  <remote fetch="https://git.yoctoproject.org/git/meta-gplv2" name="meta-gplv2"/>
-  <remote fetch="https://github.com/renesas-rz/meta-renesas.git" name="meta-renesas"/>
-  <remote fetch="https://github.com/meta-qt5/meta-qt5.git" name="meta-qt5"/>
-  <remote fetch="https://git.yoctoproject.org/git/meta-virtualization" name="meta-virtualization"/>
+  <remote fetch="https://github.com/renesas-rz" name="meta-renesas"/>
+  <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
   
   <project name="poky" path="sources/poky" remote="yocto" revision="dunfell-23.0.21"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="7952135f650b4a754e2255f5aa03973a32344123"/>
-  <project name="meta-gplv2" path="sources/meta-gplv2" remote="meta-gplv2" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac"/>
+  <project name="meta-gplv2" path="sources/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac"/>
   <project name="meta-renesas" path="sources/meta-renesas" remote="meta-renesas" revision="BSP-3.0.4"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="meta-qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="meta-virtualization" revision="a63a54df3170fed387f810f23cdc2f483ad587df"/>
-</manifest>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="a63a54df3170fed387f810f23cdc2f483ad587df"/>
+  </manifest>
