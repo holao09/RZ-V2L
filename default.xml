@@ -13,5 +13,5 @@
   <project name="meta-renesas" path="sources/meta-renesas" remote="meta-renesas" revision="e5f7055d78ff0219932557f25645024f35ac5d9a"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="meta-qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="a63a54df3170fed387f810f23cdc2f483ad587df"/>
-  <project name="meta-rz-features" path="sources/meta-rz-features" remote="meta-rz-features" revision="72983845c8883ca070ff1296db36672c51f5175e"/>
+  <project name="meta-rz-features" path="sources/meta-rz-features" remote="meta-rz-features" revision="2f10ee13b2ee593f4ba1eb6d7caa4cf0d90219e7"/>
 </manifest>
