@@ -3,7 +3,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/renesas-rz" name="meta-renesas"/>
-  <remote fetch="git@github.com/holao09" name="meta-rz-features"/>
+  <remote fetch="git://github.com/holao09" name="meta-rz-features"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
   
   
